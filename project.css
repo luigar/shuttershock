@@ -1,0 +1,111 @@
+header {
+    background-color : #D2B48C;
+    height : 150px;
+    background-image : url(../img/header.JPG);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+header h1 {
+    font : bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+    margin : 2%;
+}
+nav {
+    display : block;
+    width : 100%;
+    float : none;
+    top : 15%;
+    left : 88%;
+}
+nav ul {
+    margin : 80px 0 20px 0;
+    padding : 0.7em;
+    float : left;
+    list-style : none;
+    background : #444;
+    border-radius : 0.5em;
+    box-shadow : 0 1px 0 rgb(255, 255, 255), 0 2px 1px rgba(171, 255, 104, 0.8) inset;
+}
+nav li {
+    float : left;
+}
+nav a {
+    float : left;
+    padding : 0.8em 1.5em;
+    text-decoration : none;
+    color : #555;
+    font : bold 1em Arial, Helvetica;
+    letter-spacing : 1px;
+    text-transform : uppercase;
+    border-width : 1px;
+    border-style : solid;
+    border-color : #fff #ccc #999 #eee;
+    background : #c1c1c1;
+}
+nav a:hover, nav a:focus {
+    outline : 0;
+    color : #fff;
+    text-shadow : 0 1px 0 rgb(0, 0, 0, 0.2);
+    background : #fac754;
+    background : linear-gradient(#fac754, #f8ac00);
+}
+nav a:active {
+    box-shadow : 0 0 2px 2px;
+}
+form {
+    background-color : #eaeaea;
+    font-family : Arial, sans-serif;
+    padding : 10px;
+    min-width : 400px;
+}
+input, textarea {
+    margin-top : 10px;
+    display : block;
+}
+#mySubmit {
+    margin-left : 160px;
+}
+#wrapper {
+    background-color : #3caea8;
+    margin-left : auto;
+    margin-right : auto;
+    width : 80%;
+    min-width : 900px;
+    max-width : 1280px;
+    box-shadow : 3px 3px 3px #333;
+}
+.box {
+    width : 520px;
+    height : 300px;
+    margin : 45px auto;
+    background-color : #424242;
+    display : block;
+    position : fixed;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+.box h1 {
+    font-size : 2em;
+    font-weight : 300;
+    text-align : center;
+    color : #2196F3;
+}
+.img-index {
+    display : block;
+    position : fixed;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+footer {
+    background-color : #D2B48C;
+    font-size : 1em;
+    font-style : italic;
+    text-align : center;
+    padding-bottom : 10px;
+    border-top : 2px #221811;
+}
+body {background-color: #D2B48C;}
+
+
+main p, main dl {padding-left: 3em; padding-right: 2em; font-size: larger;}

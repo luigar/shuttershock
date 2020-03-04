@@ -1,0 +1,49 @@
+<!Luis Garcia 11/18/2019 Project 2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shuttershock</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="shortcut icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+</head>
+<header>
+    <h1>shuttershock</h1>
+</header>
+
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+<body>
+
+<div class = "box">
+<h1>Send Us Your Comments</h1>
+<p>Required fields are marked with and asterisk (*). </p>
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+    <label for="myName">* Name:</label>    <input type="text" name="myName" id="myName" required="required" placeholder="your first and last name"><br>
+    <label for="myUser">* User:</label>    <input type="text" name="myName" id="myUser"  placeholder="if you have an assigned username"><br>
+    <label for="myEmail">* E-mail:</label> <input type="email" name="myEmail" id="myEmail" required="required" placeholder="you@yourdomain.com"><br>
+    <label for="myInquiry">Inquiry Type</label> <input type="text" name="myInquiry" list="myInquiry" placeholder="Select One"><br>
+        <datalist id="myInquiry">
+            <option value = "General">
+            <option value = "Service Related">
+        </datalist>
+    <br>
+    <label for="myComments">* Message:</label>
+    <textarea name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea>
+    <input id="mySubmit" type="submit" value="Submit">
+</form>
+
+</div>
+
+</body>
+</main>
+
+</html>
